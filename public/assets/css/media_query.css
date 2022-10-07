@@ -1,0 +1,1001 @@
+/* desktop */
+@media screen and (max-width: 1900px) {}
+
+/* laptop */
+@media screen and (max-width: 1450px) {
+
+    /* landingpage */
+    header {
+        max-width: 100%;
+    }
+
+    /* slide */
+    .slide {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* inscription page */
+    .main-container {
+        max-width: 100%;
+        height: 100vh;
+        background-color: #FCF6F5;
+    }
+
+    .big-container {
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .left-container {
+        max-width: 45%;
+        height: 560px;
+    }
+
+    .left-container img {
+        max-width: 100%;
+        height: 560px;
+    }
+    /* profil de l'utilisateur */
+    .user-container {
+        display: flex;
+        max-width: 50%;
+        margin: 15% auto;
+        box-shadow: 2px 1px 1px 2px #000000;
+        background-color: #FCF6F5;
+        border-radius: 5px;
+    }
+
+    .user-profil-contain {
+        width: 50%;
+        border: 1px white;
+    }
+
+    .user-profil-contain form {
+        width: 500px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 26%;
+    }
+
+    .user-profil-contain form input {
+        background-color: #b3b3b34c;
+        color: #000000;
+        padding-left: 10px;
+        width: 70%;
+    }
+
+    .profil-user-title {
+        color: #000000;
+        font-size: 15x;
+        font-weight: bold;
+        width: 250px;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+    #modif{
+        margin-left: 15%;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .admin-logo img {
+        width: 120px;
+    }
+
+    .search_content {
+        width: 250px;
+    }
+}
+
+/* tablette */
+@media screen and (max-width: 850px) {
+
+    /* slide */
+    .slide {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .arrow {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -155px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .logo {
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .categories-container {
+        display: grid;
+        max-width: 1500px;
+        height: auto;
+        width: 85%;
+        margin: 20px auto;
+        grid-template-columns: repeat(auto-fill, 250px);
+        justify-content: center;
+        grid-gap: 30px;
+    }
+
+    .box {
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        background-color: #181818;
+        border-radius: 5px;
+    }
+
+    .box img {
+        width: 85%;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .box div {
+        font-size: 18px;
+        margin-top: 7%;
+        margin-right: 50%;
+        font-weight: bold;
+    }
+
+    .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        border: none;
+        margin-left: 43px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #2BAE66;
+        color: white;
+        font-size: 20px;
+    }
+
+    button:hover {
+        background-color: #FCF6F5;
+        border: 2px solid #2BAE66;
+        color: #2BAE66;
+    }
+
+    /* inscription et connexion */
+    body#body-inscrip {
+        background-color: #FCF6F5;
+
+    }
+
+    body#body_con {
+        background-color: #FCF6F5;
+    }
+
+    .main-container {
+        max-width: 100%;
+        height: 70vh;
+        background-color: #FCF6F5;
+    }
+
+    .big-container {
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .right-container {
+        max-width: 65%;
+        height: 400px;
+        background-color: #b3b3b34c;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+
+    .right-container form {
+        margin-top: 35px;
+    }
+
+    input {
+        width: 350px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #FCF6F5;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    .logos a img {
+        width: 150px;
+    }
+
+    /* profil de l'utilisateur */
+    .user-container {
+        display: flex;
+        max-width: 70%;
+        margin: 15% auto;
+        box-shadow: 2px 1px 1px 2px #000000;
+        background-color: #FCF6F5;
+        border-radius: 5px;
+    }
+
+    .user-profil-contain {
+        width: 40%;
+        border: 1px white;
+    }
+
+    .user-profil-contain form {
+        width: 400px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+
+    .user-profil-contain form input {
+        background-color: #b3b3b34c;
+        color: #000000;
+        padding-left: 10px;
+        width: 70%;
+    }
+
+    .profil-user-title {
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        width: 300px;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .admin-logo img {
+        width: 120px;
+    }
+
+    .search_content {
+        width: 250px;
+    }
+    /*barre de lecture de musique */
+
+.play_nav_container {
+    height: 100vh;
+    width: 80%;
+}
+
+.play_nav {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 37.9%;
+    box-shadow: 1px 0px 1px 0px #272727;
+    display: flex;
+
+}
+
+#nav {
+    margin-left: -20%;
+}
+
+.play_bar {
+    width: 35%;
+    height: 100px;
+    margin-top: 5%;
+
+}
+
+audio {
+    width: 550px;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-left: 50%;
+}
+
+.none {
+    display: none;
+}
+
+.infoArtist {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+}
+.titleName{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.songTitle{
+    font-size: 15px;
+    font-weight:bold ;
+}
+.titleSong{
+    font-size: 11px;
+}
+.copyright{
+    color: #fcf6f5;
+    text-decoration: none;
+}
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+
+    /* slide */
+    .slide {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 30vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .arrow {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -55%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .logo {
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .categories-container {
+        display: grid;
+        max-width: 1000px;
+        height: auto;
+        width: 85%;
+        margin: 20px auto;
+        grid-template-columns: repeat(auto-fill, 200px);
+        justify-content: center;
+        grid-gap: 25px;
+    }
+
+    .box {
+        width: 200px;
+        height: 280px;
+        text-align: center;
+        background-color: #181818;
+        border-radius: 5px;
+    }
+
+    .box img {
+        width: 85%;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .box div {
+        font-size: 15px;
+        margin-top: 7%;
+        margin-right: 50%;
+        font-weight: bold;
+    }
+
+    .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        margin-left: 43px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #2BAE66;
+        color: white;
+        font-size: 12px;
+    }
+
+    button:hover {
+        background-color: #FCF6F5;
+        border: 2px solid #2BAE66;
+        color: #2BAE66;
+    }
+
+    /* inscription et connexion */
+
+    .main-container {
+        max-width: 100%;
+        height: 70vh;
+        background-color: #FCF6F5;
+    }
+
+    .big-container {
+        max-width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .right-container {
+        max-width: 65%;
+        height: 400px;
+        background-color: #b3b3b34c;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+
+    .right-container form {
+        margin-top: 35px;
+    }
+
+    input {
+        width: 250px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #FCF6F5;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-left: 30%;
+        margin-top: 10%;
+        font-size: 18px;
+    }
+
+    .logos a img {
+        width: 150px;
+    }
+
+    .inscription-text {
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        width: 400px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .admin-logo img {
+        width: 100px;
+    }
+
+    /* profil de l'utilisateur */
+    .user-container {
+        width: 100%;
+        margin: 40% auto;
+        box-shadow: 2px 1px 1px 2px #000000;
+        background-color: #FCF6F5;
+        border-radius: 5px;
+    }
+
+    .user-profil-contain {
+        width: 40%;
+        border: 1px white;
+    }
+
+    .user-profil-contain form {
+        width: 400px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+
+    .user-profil-contain form input {
+        background-color: #b3b3b34c;
+        color: #000000;
+        padding-left: 10px;
+        width: 45%;
+    }
+
+    .profil-user-title {
+        color: #000000;
+        font-size: 17px;
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 40%;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 450px) {
+
+    /* slide */
+    .slide {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 30vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .arrow {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -70%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .logo {
+        width: 95px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .categories-container {
+        display: grid;
+        max-width: 1300px;
+        height: auto;
+        width: 85%;
+        margin: 20px auto;
+        grid-template-columns: repeat(auto-fill, 100px);
+        justify-content: center;
+        grid-gap: 25px;
+    }
+
+    .box {
+        width: 110px;
+        height: 200px;
+        text-align: center;
+        background-color: #181818;
+        border-radius: 5px;
+    }
+
+    .box img {
+        width: 85%;
+        height: 120px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .box div {
+        font-size: 13px;
+        margin-top: 7%;
+        margin-right: 50%;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        margin-left: 43px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #2BAE66;
+        color: white;
+        font-size: 12px;
+    }
+
+    button:hover {
+        background-color: #FCF6F5;
+        border: 2px solid #2BAE66;
+        color: #2BAE66;
+    }
+
+    /* inscription et connexion */
+
+    .main-container {
+        max-width: 100%;
+        height: 70vh;
+        background-color: #FCF6F5;
+    }
+
+    .big-container {
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .right-container {
+        max-width: 65%;
+        height: 400px;
+        background-color: #b3b3b34c;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+
+    .right-container form {
+        margin-top: 35px;
+    }
+
+    input {
+        width: 250px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #FCF6F5;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-left: 30%;
+        margin-top: 10%;
+        font-size: 18px;
+    }
+
+    .logos a img {
+        width: 100px;
+    }
+
+    .inscription-text {
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        width: 400px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .admin-logo img {
+        width: 100px;
+    }
+
+    .search_content {
+        width: 200px;
+    }
+
+    .input-search {
+        width: 160px;
+    }
+
+    /* profil de l'utilisateur */
+    .user-container {
+        max-width: 70%;
+        margin: 40% auto;
+        box-shadow: 2px 1px 1px 2px #000000;
+        background-color: #FCF6F5;
+        border-radius: 5px;
+    }
+
+    .user-profil-contain {
+        width: 40%;
+        border: 1px white;
+    }
+
+    .user-profil-contain form {
+        width: 400px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+
+    .user-profil-contain form input {
+        background-color: #b3b3b34c;
+        color: #000000;
+        padding-left: 10px;
+        width: 35%;
+    }
+
+    .profil-user-title {
+        color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    #modif {
+        margin-left: 5%;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 350px) {
+
+    /* slide */
+    .slide {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 20vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .arrow {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -95%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    #arrow-left {
+        border-width: 10px 15px 10px 0;
+        border-color: transparent #fff transparent transparent;
+        left: 0;
+        margin-left: 20px;
+    }
+
+    #arrow-right {
+        border-width: 10px 0 10px 15px;
+        border-color: transparent transparent transparent #fff;
+        right: 0;
+        margin-right: 20px;
+    }
+
+    .logo {
+        width: 95px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .categories-container {
+        display: grid;
+        max-width: 1500px;
+        height: auto;
+        width: 85%;
+        margin: 20px auto;
+        grid-template-columns: repeat(auto-fill, 60px);
+        justify-content: center;
+        grid-gap: 40px;
+    }
+
+    .box {
+        width: 90px;
+        height: 150px;
+        text-align: center;
+        background-color: #181818;
+        border-radius: 5px;
+    }
+
+    .box img {
+        width: 85%;
+        height: 90px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .box div {
+        font-size: 13px;
+        margin-top: 7%;
+        margin-right: 50%;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    button {
+        width: 70px;
+        height: 40px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #2BAE66;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #FCF6F5;
+        border: 2px solid #2BAE66;
+        color: #2BAE66;
+    }
+
+    /* inscription et connexion */
+
+    .main-container {
+        max-width: 100%;
+        height: 70vh;
+        background-color: #FCF6F5;
+    }
+
+    .big-container {
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .right-container {
+        max-width: 75%;
+        height: 350px;
+        background-color: #b3b3b34c;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+
+    .right-container form {
+        margin-top: 35px;
+    }
+
+    input {
+        width: 210px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #FCF6F5;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+    .btn {
+        margin-left: 20%;
+        margin-top: 10%;
+        font-size: 15px;
+        width: 120px;
+    }
+
+    .login-text a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 15px;
+
+    }
+
+    .logos a img {
+        width: 100px;
+    }
+
+    .inscription-text {
+        color: #000000;
+        font-size: 17px;
+        font-weight: bold;
+        width: 200px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .admin-logo img {
+        width: 100px;
+    }
+
+    .search_content {
+        width: 170px;
+    }
+
+    .input-search {
+        width: 130px;
+    }
+
+    
+}

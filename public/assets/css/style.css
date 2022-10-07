@@ -1,0 +1,869 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    max-width: 100%;
+}
+
+body#body-inscrip {
+    background-color: #FCF6F5;
+}
+
+body#body_con {
+    background-color: #FCF6F5;
+}
+
+/* slide */
+.slide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url(../../assets/images/maxr.jpg);
+}
+
+.slide2 {
+    background-image: url(../../assets/images/lauraa.jpg);
+}
+
+.slide3 {
+    background-image: url(../../assets/images/J\ GADO2.jpg);
+}
+
+.slide4 {
+    background-image: url(../../assets/images/lecoindescurieux-14062022165512-jjjkk.jpg);
+}
+
+.slide5 {
+    background-image: url(../../assets/images/Photo-Willy-Baby.jpg);
+}
+
+.slide6 {
+    background-image: url(../../assets/images/king-mensah.jpg);
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 20px;
+}
+
+#arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+
+.display span {
+    margin-left: 20px;
+}
+
+/* .display-link button{
+   font-size: 20px;
+   margin-top: -2%;
+}  */
+/* .display-link button:hover{
+    color: #2BAE66;
+    background-color: #FCF6F5;
+ }  */
+.display-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.display-link a:hover {
+    text-decoration: none;
+    color: #2BAE66;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000009c;
+}
+
+/* main */
+
+.categories-container {
+    display: grid;
+    max-width: 1500px;
+    height: auto;
+    width: 85%;
+    margin: 40px auto;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.box {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    background-color: #181818;
+    border-radius: 5px;
+}
+
+#box-music {
+    width: 150px;
+    height: 190px;
+}
+
+#box-music img {
+    width: 70%;
+    height: 100px;
+}
+
+#box-music div {
+    font-size: 11px;
+    margin-top: 7%;
+    width: 120px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.box img {
+    width: 90%;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.box:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.box div {
+    font-size: 20px;
+    margin-top: 7%;
+    margin-right: 50%;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #181818;
+    color: #FCF6F5;
+    text-align: center;
+    max-width: 100%;
+    height: 50px;
+    padding-top: 2px;
+    margin-top: 30px;
+}
+
+footer div {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* page d'inscription */
+.main-container {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #FCF6F5;
+}
+
+.big-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-container {
+    max-width: 45%;
+    height: 600px;
+}
+
+.left-container img {
+    max-width: 90%;
+    height: 650px;
+}
+
+.right-container {
+    max-width: 65%;
+    height: 450px;
+    background-color: #b3b3b34c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.right-container form {
+    margin-top: 35px;
+}
+
+#inscrip_under {
+    text-decoration: 2px solid #2BAE66 underline;
+}
+
+#connect_under {
+    text-decoration: 2px solid #2BAE66 underline;
+}
+
+input {
+    width: 295px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #FCF6F5;
+    color: #000000;
+    padding-left: 10px;
+}
+
+button {
+    width: 210px;
+    height: 40px;
+    border: none;
+    margin-left: 43px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #2BAE66;
+    color: white;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #FCF6F5;
+    border: 2px solid #2BAE66;
+    color: #2BAE66;
+}
+
+.login-text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.inscription-text {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* login page admin */
+.admin {
+    max-width: 100%;
+}
+
+.admin img {
+    width: 200px;
+
+}
+
+.admin div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin form {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.admin form input {
+    background-color: #D9D9D9;
+}
+
+.profil-circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.profil-circle img {
+    margin-left: 5px;
+}
+
+.admin-logo {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.admin-logo img {
+    width: 150px;
+    margin-left: 30px;
+
+
+}
+
+ul {
+    margin-top: 30%;
+}
+
+li {
+    margin-top: 20px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+li:hover {
+    color: #2BAE66;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: #FCF6F5;
+}
+
+li a:hover {
+    color: #2BAE66;
+}
+
+.item-container {
+    width: 220px;
+    height: 100vh;
+    background-color: #000000;
+
+}
+
+.nav-bar-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-container {
+    width: 80%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+/* compte de l'admin modal*/
+#myUserModal {
+    width: 90%;
+    height: 100vh;
+    display: block;
+}
+
+#account {
+    color: #2BAE66;
+}
+
+.modal-content {
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FCF6F5;
+    width: 550px;
+    height: 500px;
+    color: #000000;
+    box-shadow: #FCF6F5 2px 2px 10px 0px;
+}
+
+.modal-content button {
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.modal-content .profil {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: rgb(12, 12, 12);
+    margin: 30px auto;
+    color: rgba(128, 128, 128, 0.76);
+    text-align: center;
+}
+
+.modal-content .profil:hover {
+    box-shadow: 2px 2px 10px 0px;
+    scale: 1.5;
+
+}
+
+.modal-content.profil i {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.modal-content form input {
+    background-color: #D9D9D9;
+    width: 500px;
+    margin-left: 5px;
+
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.display-modal {
+    display: block;
+}
+
+/* Play list */
+
+.search_content {
+    display: flex;
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    background-color: #181818;
+    border: 2px solid #2BAE66;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+.input-search {
+    margin-left: 5px;
+    width: 200px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #181818;
+    margin-top: -4px;
+    color: white;
+}
+
+.search-icon i {
+    color: #2BAE66;
+    margin-right: 10px;
+}
+
+.search-nav {
+    color: #2BAE66;
+}
+
+.profil-box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.profil-box i {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #181818;
+
+}
+
+.profil-box:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.user-container {
+    display: flex;
+    max-width: 40%;
+    margin: 8% auto;
+    box-shadow: 2px 1px 1px 2px #000000;
+    background-color: #FCF6F5;
+    border-radius: 5px;
+}
+
+.user-profil-items {
+    width: 225px;
+    height: 70vh;
+    background-color: #000000;
+
+}
+
+.user-profil-items img {
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.profil-box1 {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #181818;
+    margin: auto;
+}
+
+.profil-box1 i {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #000000;
+
+}
+
+.profil-box1:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.user-profil-contain {
+    width: 50%;
+    border: 1px white;
+}
+
+.user-profil-contain form {
+    width: 400px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.user-profil-contain form input {
+    background-color: #b3b3b34c;
+    color: #000000;
+    margin-left: -20px;
+}
+
+.profil-user-title {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 25px;
+}
+
+.home-items li a {
+    color: white;
+}
+
+#prof {
+    color: #2BAE66;
+}
+
+#accueil {
+    color: #2BAE66;
+}
+
+#profil {
+    color: #2BAE66;
+}
+
+/* ***********Afficher les utilisateurs******** */
+td a i {
+    color: #2BAE66;
+    text-decoration: none;
+
+}
+
+table {
+    min-width: 80%;
+    /* border: 1px solid; */
+    margin: 60px auto;
+    border-collapse: collapse;
+    text-align: left;
+    /* background-color:#000000 ; */
+    color: #FCF6F5;
+    border-radius: 10px;
+}
+
+th,
+td {
+    padding: 5px 10px;
+}
+
+td {
+    text-align: left;
+}
+
+tbody:hover {
+    cursor: pointer;
+    background-color: #12121248;
+    color: #FCF6F5;
+
+}
+
+td a i:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
+/* ******** Ajouter categories******* */
+#add-category {
+    text-decoration: none;
+    color: #FCF6F5;
+}
+
+#add-btn {
+    margin-left: 80%;
+}
+
+.new-category-container {
+    width: 400px;
+    height: 300px;
+    margin: 30px auto;
+    color: #000000;
+    padding-top: 40px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+.new-category {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.new-category-container input {
+    margin-left: 50px;
+}
+
+.new-category-container button {
+    margin-left: 90px;
+}
+
+/* *dashboard* */
+#board {
+    color: #2BAE66;
+}
+
+#myUserpage {
+    color: #2BAE66;
+}
+
+#catpage {
+    color: #2BAE66;
+}
+
+#myArtistpage {
+    color: #2BAE66;
+}
+
+#songpage {
+    color: #2BAE66;
+}
+
+#music {
+    color: #2BAE66;
+}
+
+#biblo {
+    color: #2BAE66;
+}
+
+.artist_img {
+    width: 150px;
+    height: 150px;
+}
+
+.row {
+    display: grid;
+    max-width: 1500px;
+    height: auto;
+    width: 85%;
+    margin: 40px auto;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 25px;
+    align-items: center;
+    /* margin-left: 10%;
+    margin-top: 10%; */
+}
+
+.count-row {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #b3b3b34c;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.count-row a {
+    text-decoration: none;
+    color: #FCF6F5;
+
+}
+
+.nber {
+    color: #2BAE66;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* artistes */
+.file {
+    background-color: transparent;
+}
+
+/* errors */
+.error {
+    font-size: 12px;
+    color: red;
+    width: 150px;
+}
+
+select {
+    margin-left: 13%;
+    width: 296px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#add_songs {
+    width: 400px;
+    height: 500px;
+}
+
+/*barre de lecture de musique */
+
+.play_nav_container {
+    height: 100vh;
+    width: 80%;
+}
+
+.play_nav {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 37.9%;
+    box-shadow: 1px 0px 1px 0px #272727;
+    display: flex;
+
+}
+
+#nav {
+    margin-left: -20%;
+}
+
+.play_bar {
+    width: 35%;
+    height: 100px;
+    margin-top: 5%;
+
+}
+
+audio {
+    width: 550px;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-left: 50%;
+}
+
+.none {
+    display: none;
+}
+
+.infoArtist {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+}
+.titleName{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.songTitle{
+    font-size: 15px;
+    font-weight:bold ;
+}
+.titleSong{
+    font-size: 11px;
+}
+.copyright{
+    color: #fcf6f5;
+    text-decoration: none;
+}
